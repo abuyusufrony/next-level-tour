@@ -59,6 +59,10 @@ const Buttons = () => {
                 </svg>
                 <span>Loading...</span>
             </button>
+
+            <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded hover:opacity-90">
+                ColurFull
+            </button>
         </div>
     );
 };
