@@ -2,7 +2,8 @@ import React from 'react';
 
 const Buttons = () => {
     return (
-        <div className="p-6 space-x-4">
+        <div className="p-6 space-x-4 space-y-4 flex flex-wrap">
+            {/* Existing Buttons */}
             <button className="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600">
                 Primary
             </button>
@@ -11,6 +12,52 @@ const Buttons = () => {
             </button>
             <button className="border border-indigo-500 text-indigo-500 px-4 py-2 rounded hover:bg-indigo-50">
                 Outline
+            </button>
+
+            {/* Success Button */}
+            <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                Success
+            </button>
+
+            {/* Danger Button */}
+            <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                Danger
+            </button>
+
+            {/* Warning Button */}
+            <button className="bg-yellow-400 text-white px-4 py-2 rounded hover:bg-yellow-500">
+                Warning
+            </button>
+
+            {/* Disabled Button */}
+            <button className="bg-gray-400 text-white px-4 py-2 rounded cursor-not-allowed opacity-60" disabled>
+                Disabled
+            </button>
+
+            {/* Icon Only Button */}
+            <button className="bg-indigo-500 text-white p-2 rounded-full hover:bg-indigo-600">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+            </button>
+
+            {/* Ghost Button */}
+            <button className="bg-transparent text-indigo-500 px-4 py-2 rounded hover:bg-indigo-100">
+                Ghost
+            </button>
+
+            {/* Link Button */}
+            <button className="text-indigo-600 hover:underline">
+                Link
+            </button>
+
+            {/* Loading Button (simulated) */}
+            <button className="bg-indigo-500 text-white px-4 py-2 rounded flex items-center space-x-2 hover:bg-indigo-600">
+                <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+                </svg>
+                <span>Loading...</span>
             </button>
         </div>
     );
