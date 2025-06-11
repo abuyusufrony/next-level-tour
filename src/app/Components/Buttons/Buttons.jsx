@@ -66,6 +66,9 @@ const Buttons = () => {
             <button className="bg-black text-green-400 px-4 py-2 rounded-lg border border-green-400 shadow-[0_0_10px_rgba(34,197,94,0.8)] hover:shadow-[0_0_20px_rgba(34,197,94,1)]">
                 Neon
             </button>
+            <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-[length:200%] hover:bg-right text-white px-4 py-2 rounded transition-all duration-500">
+                Magic
+            </button>
         </div>
     );
 };
