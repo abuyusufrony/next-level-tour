@@ -63,6 +63,9 @@ const Buttons = () => {
             <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded hover:opacity-90">
                 ColurFull
             </button>
+            <button className="bg-black text-green-400 px-4 py-2 rounded-lg border border-green-400 shadow-[0_0_10px_rgba(34,197,94,0.8)] hover:shadow-[0_0_20px_rgba(34,197,94,1)]">
+                Neon
+            </button>
         </div>
     );
 };
