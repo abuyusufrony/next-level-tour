@@ -69,6 +69,10 @@ const Buttons = () => {
             <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-[length:200%] hover:bg-right text-white px-4 py-2 rounded transition-all duration-500">
                 Magic
             </button>
+            {/* Glassmorphism Button */}
+            <button className="backdrop-blur-sm bg-white/30 text-white px-4 py-2 rounded-lg border border-white/20 hover:bg-white/40">
+                Glass
+            </button>
         </div>
     );
 };
