@@ -73,6 +73,10 @@ const Buttons = () => {
             <button className="backdrop-blur-sm bg-white/30 text-white px-4 py-2 rounded-lg border border-white/20 hover:bg-white/40">
                 Glass
             </button>
+            {/* Pulse Button */}
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-full animate-pulse hover:animate-none">
+                Pulse
+            </button>
         </div>
     );
 };
