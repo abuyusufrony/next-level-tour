@@ -77,6 +77,10 @@ const Buttons = () => {
             <button className="bg-blue-500 text-white px-4 py-2 rounded-full animate-pulse hover:animate-none">
                 Pulse
             </button>
+
+            <button className="bg-pink-500 text-white px-6 py-2 transform -skew-x-12 hover:skew-x-0 transition-all duration-300 rounded">
+                Skewed
+            </button>
         </div>
     );
 };
