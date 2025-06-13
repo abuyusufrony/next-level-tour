@@ -81,6 +81,9 @@ const Buttons = () => {
             <button className="bg-pink-500 text-white px-6 py-2 transform -skew-x-12 hover:skew-x-0 transition-all duration-300 rounded">
                 Skewed
             </button>
+            <button className="bg-blue-600 text-white px-4 py-2 rounded shadow-lg hover:shadow-blue-800 transform hover:translate-y-1 transition-all duration-200">
+                3D Shadow
+            </button>
         </div>
     );
 };
